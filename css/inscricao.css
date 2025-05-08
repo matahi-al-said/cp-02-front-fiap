@@ -4,3 +4,38 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.forms input{
+   width: 100%;
+  
+   
+}
+.forms{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.forms div{
+    text-align: center;
+}
+.total{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.total label{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+label{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
