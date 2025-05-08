@@ -73,3 +73,19 @@ h2{
     width: 600px;
 
 }
+
+footer{
+    color: #fff;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    text-decoration: underline;
+    color: #c1c1c1;
+    text-align: center;
+}
+
+.beneficios{
+    
+}
