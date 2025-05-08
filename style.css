@@ -1,7 +1,58 @@
-.horarios{
-    padding: 10px 20px;
-    background-color: brown;
-    border-radius: 5px;
-    font-weight: bold;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #800020;
+    color: #800020;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .titulo-principal {
     text-align: center;
-}
+    margin-bottom: 40px;
+    font-size: 32px;
+    color: #2c3e50;
+  }
+  
+  .horarios {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .evento {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .horario {
+    flex: 0 0 80px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2980b9;
+    text-align: center;
+  }
+  
+  .conteudo {
+    margin-left: 20px;
+  }
+  
+  .titulo-palestra {
+    margin: 0;
+    font-size: 20px;
+    color: #2c3e50;
+  }
+  
+  .palestrante {
+    margin: 5px 0 0;
+    color: #7f8c8d;
+    font-style: italic;
+  }
