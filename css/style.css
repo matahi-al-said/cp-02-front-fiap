@@ -4,10 +4,13 @@
     font-family: 'Poppins', sans-serif;
 }
 .nav-container {
+    display: flex;
     background-color: #9f0f2c;
-    padding: 15px;
-    justify-content: center;
-    
+    padding: 0px;
+    justify-content: space-around;
+    border-bottom: #9f0f2c;
+    border-width: 3px;
+    border-style: hidden;
 }
 
 body{
@@ -18,12 +21,21 @@ h1{
     color: #fff;
     text-align: center;
 }
+h3{
+    color: #fff;
+    text-align: center;
+    size: small;
+}
+h2{
+    color: #fff;
+    size: small;
+}
 
 .nav-container ul{
     display: flex;
     list-style: none;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-around;
+    gap: 120px;
     border: #9f0f2c 2px solid;
     padding: 15px
 }
@@ -40,12 +52,24 @@ h1{
     background-color: #ffffff;
     transition: 0.5s;
     color: #000;
+    border-style: solid;
+    border-radius: 5px;
+
 }
 
 .p-container{
     padding: 15px;
     background-color: #0c0c0c;
     color: #fff;
+    border-style: solid;
+    border-radius: 5px;
 }
 
+.img-container-main {
+    display: flex;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #fff;
+    width: 600px;
 
+}
